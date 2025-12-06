@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test SVG Paths</title>
+</head>
+<body>
+    <h1>Тест загрузки SVG</h1>
+    
+    <h2>Этаж 1:</h2>
+    <img src="assets/floor1_without_corridors.svg" style="width: 300px; border: 2px solid red;" onerror="console.error('Floor 1 error')" onload="console.log('Floor 1 loaded')">
+    
+    <h2>Этаж 2:</h2>
+    <img src="assets/floor2_without_corridors.svg" style="width: 300px; border: 2px solid red;" onerror="console.error('Floor 2 error')" onload="console.log('Floor 2 loaded')">
+
+    <script>
+        console.log('Testing SVG paths...');
+    </script>
+</body>
+</html>

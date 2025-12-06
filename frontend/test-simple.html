@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Test</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        button { padding: 15px; margin: 10px; font-size: 18px; }
+        #status { padding: 20px; background: #f0f0f0; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <h1>🧪 Простой тест</h1>
+    
+    <button onclick="testButton1()">Тест кнопка 1</button>
+    <button onclick="testButton2()">Тест кнопка 2</button>
+    
+    <div id="status">Нажмите кнопки для теста</div>
+
+    <script>
+        function testButton1() {
+            document.getElementById('status').innerHTML = '✅ Кнопка 1 работает!';
+            console.log('Кнопка 1 нажата');
+        }
+
+        function testButton2() {
+            document.getElementById('status').innerHTML = '✅ Кнопка 2 работает!';
+            console.log('Кнопка 2 нажата');
+        }
+
+        console.log('✅ Скрипт загружен');
+    </script>
+</body>
+</html>
